@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <ion-icon name="trash"></ion-icon> -->
+    <!-- <ion-icon name="add"></ion-icon> -->
+    <!-- <ion-icon name="clipboard"></ion-icon> -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<body>
+    <div class="mainWrapper">
+        <div class="book">
+            <div class="main">
+                <h1><span class="title"> <ion-icon style="width:40px;height:40px" name="clipboard"></ion-icon></span></h1>
+                <div class="inputdiv">
+                    <input class="input" type="text" placeholder="Enter Your Note...">
+                    <button class="add"> <span class="material-symbols-outlined">
+                            add_task
+                        </span></button>
+                </div>
+                <div class="container">
+
+                </div>
+                <div class="button-cont" align="center"><a class="remove-btn" onclick="removeAll()">remove All</a></div>
+            </div>
+        </div>
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
